@@ -21,6 +21,7 @@ body {
 
 .container {
   max-width: 136px;
+  margin: 50px 50px;
 }
 
 a {
@@ -28,9 +29,17 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
-  border: 1px solid #FF0000;
+  border: 2px solid #FF0000;
   border-radius: 100px;
+  font-weight: 600;
 }
+
 span {
   color:black;
+  font-weight: 400;
+}
+
+.hover {
+  color: white;
+  background-color: #FF0000;
 }
