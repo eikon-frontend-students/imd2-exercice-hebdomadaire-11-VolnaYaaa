@@ -19,5 +19,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.container {
+  max-width: 136px;
+}
 
-
+a {
+  padding: 10 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #FF0000;
+  border-radius: 100px;
+}
+span {
+  color:black;
+}
