@@ -8,7 +8,7 @@ leBouton.addEventListener('click', function() {
     if (!leBouton.classList.contains('hover')) {
         leBouton.classList.add('hover');
     }
-    if () {
+    if (!leCount.classList.contains('hover')) {
         leCount.classList.add('hover');
     }
     count += 1;
